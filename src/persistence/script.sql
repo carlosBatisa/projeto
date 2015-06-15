@@ -1,6 +1,6 @@
 drop database if exists proj1;
 
-create database proje1;
+create database proj1;
 use proj1;
 
 create table funcionario (
@@ -15,8 +15,11 @@ create table funcionarioCLT(
 	foreign key(id_Funcionario) references funcionario(idFuncionario));
 );
 
-insert into funcionario values(10,'jose@hotmail.com',2000);
+insert into funcionario values(10,'jose','jose@hotmail.com',2000.);
 insert into funcionarioCLT values(10,now());
+
+insert into funcionario values(12,'sergio','sergio@hotmail.com',3000.);
+insert into funcionarioCLT values(12,now());
 
 select * from funcionario;
 select * from funcionarioCLT;
