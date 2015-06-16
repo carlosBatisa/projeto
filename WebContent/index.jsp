@@ -29,7 +29,7 @@
 		class="mainbox col-md-6 col-md-offset-3 col-sm-offset">
 		<div class="panel panel-primary">
 		
-		<div class="panel-headding">
+		<div class="panel-heading">
 			<h2 class="panel-title"> Cadastro</h2>
 		</div>
 
@@ -84,10 +84,10 @@
 		
 	</select>
 	</div>
-<div class="form-group">	
-<input type="submit" value="Enviar" class="bnt bnt-primary"/>
-</div>
-</form>>
+	
+<input type="submit" value="Enviar" class="btn btn-primary"/>
+
+</form>
 </div>
 	</div>
 	</div>

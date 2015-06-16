@@ -9,7 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import persistence.FuncionarioDao;
-import entity.Funcionario;
 import entity.FuncionarioCLT;
 
 /**
